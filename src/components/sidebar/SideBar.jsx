@@ -124,7 +124,7 @@ const SideBar = ({ setIsModalOpen }) => {
           <div className="flex items-center gap-6 text-2xl mt-6 font-poppins">
             {socialLinks.map((values, i) => {
               return (
-                <Link
+                <Link key={i}
                   href={values.href}
                   onMouseEnter={() => {
                     handleMouseEnter(values.id);
