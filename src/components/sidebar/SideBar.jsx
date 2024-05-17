@@ -99,7 +99,6 @@ const SideBar = ({ setIsModalOpen }) => {
               </Link>
             );
           })}
-          <Link href={""}></Link>
         </div>
         <div className="font-redhat flex flex-col  gap-4 mt-8">
           <Link
@@ -125,7 +124,7 @@ const SideBar = ({ setIsModalOpen }) => {
             {socialLinks.map((values, i) => {
               return (
                 <Link
-                className="hover:text-[#e31a20]"
+                  className="hover:text-[#e31a20]"
                   href={values.href}
                   onMouseEnter={() => {
                     handleMouseEnter(values.id);
