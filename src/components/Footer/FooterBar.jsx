@@ -20,7 +20,7 @@ const FooterBar = () => {
           </Link>
         </div>
         <div>
-          <h4 class="mt-4 text-white text-[18px] text leading-tight md:text-[22px] font-redhat  font-bold">
+          <h4 class=" text-white text-[18px] text leading-tight md:text-[22px] font-redhat  font-bold">
             Best Digital Marketing Company in India
           </h4>
         </div>
